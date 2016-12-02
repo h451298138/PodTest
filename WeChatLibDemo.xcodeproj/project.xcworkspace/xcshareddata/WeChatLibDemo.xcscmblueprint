@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "c1217e90-6e62-4928-bb2f-3f450ab9f7cc",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c1217e90-6e62-4928-bb2f-3f450ab9f7cc" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c1217e90-6e62-4928-bb2f-3f450ab9f7cc" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9A2ADB64-B4B1-47AD-86CB-32032EA27A4C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c1217e90-6e62-4928-bb2f-3f450ab9f7cc" : "srulos\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WeChatLibDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WeChatLibDemo\/WeChatLibDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/qqapp.ererer222.com\/srulos",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c1217e90-6e62-4928-bb2f-3f450ab9f7cc"
+    }
+  ]
+}
