@@ -2,9 +2,19 @@
 
 配置：
 需要添加
-引用库libxml2.tbd
+引用库libxml2.tbd,libc++.tbd
 在build settings里linking的Other linker flags设置-lz
 
 需要在程序入口处初始化
 #import "WeChatApi.h"
 [WeChatApi init];
+
+info.plist中添加以下内容
+<key>LSApplicationQueriesSchemes</key>
+<array>
+<string>weixin</string>
+<string>wechat</string>
+</array>
+<key>LSRequiresIPhoneOS</key>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>需要访问相册</string>
