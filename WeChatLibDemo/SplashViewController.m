@@ -8,7 +8,8 @@
 
 #import "SplashViewController.h"
 #import "QRCodeLoginViewController.h"
-#import "WeChatApi.h"
+//#import "WeChatApi.h"
+#import "../../../svn/srulos/IOSWeChat/WeChatStaticLib/WeChatStaticLib/WeChatApi.h"
 
 @interface SplashViewController ()
 
@@ -19,24 +20,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [WeChatApi asyncGetAppInfo:^(HttpResult *httpResult) {
-        if (httpResult.ret == 0) {
-            NSMutableDictionary * dic = [httpResult objectForKey:@"tb_app_info"];
-            NSLog(@"%@",dic);
-            
-            if ([[dic objectForKey:@"appStatus"]intValue] == 0) {
-                QRCodeLoginViewController * vc = [[QRCodeLoginViewController alloc]initWithNibName:@"QRCodeLoginViewController" bundle:nil];
-                UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:vc];
-                [[[UIApplication  sharedApplication].delegate window]setRootViewController:nav];
-            }
-            else{
-                //todo
-            }
-        }
-        else{
-            //todo
-        }
-    }];
+//    [WeChatApi asyncGetAppInfo:^(HttpResult *httpResult) {
+//        if (httpResult.ret == 0) {
+//            NSMutableDictionary * dic = [httpResult objectForKey:@"tb_app_info"];
+//            NSLog(@"%@",dic);
+//            
+//            if ([[dic objectForKey:@"appStatus"]intValue] == 0) {
+//                QRCodeLoginViewController * vc = [[QRCodeLoginViewController alloc]initWithNibName:@"QRCodeLoginViewController" bundle:nil];
+//                UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:vc];
+//                [[[UIApplication  sharedApplication].delegate window]setRootViewController:nav];
+//            }
+//            else{
+//                //todo
+//            }
+//        }
+//        else{
+//            //todo
+//        }
+//    }];
 }
 
 - (void)didReceiveMemoryWarning {

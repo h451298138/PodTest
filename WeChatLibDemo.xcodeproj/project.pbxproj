@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0466DED31CBB925000A4B12A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466DED11CBB925000A4B12A /* MainTableViewController.m */; };
-		0466DED41CBB925000A4B12A /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0466DED21CBB925000A4B12A /* MainTableViewController.xib */; };
 		0466DEDA1CBB929200A4B12A /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466DED81CBB929200A4B12A /* ContactTableViewCell.m */; };
 		0466DEDB1CBB929200A4B12A /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0466DED91CBB929200A4B12A /* ContactTableViewCell.xib */; };
-		04D755C61DED2D88002CFC82 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D755C41DED2D88002CFC82 /* SplashViewController.m */; };
-		04D755C71DED2D88002CFC82 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D755C51DED2D88002CFC82 /* SplashViewController.xib */; };
-		04D755DB1DED32F2002CFC82 /* libWeChatStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D755D01DED32F2002CFC82 /* libWeChatStaticLib.a */; };
-		04D755DC1DED32F2002CFC82 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04D755D21DED32F2002CFC82 /* ReadMe.txt */; };
+		04B16BBA1DF8144C00FC0918 /* libWeChatStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B16BB91DF8144C00FC0918 /* libWeChatStaticLib.a */; };
+		04E6CAAF1DF817AB00A7637C /* libWeChatStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6CA9C1DF817AB00A7637C /* libWeChatStaticLib.a */; };
+		04E6CAB01DF817AB00A7637C /* QRCodeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6CA9F1DF817AB00A7637C /* QRCodeLoginViewController.m */; };
+		04E6CAB11DF817AB00A7637C /* QRCodeLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E6CAA01DF817AB00A7637C /* QRCodeLoginViewController.xib */; };
+		04E6CAB21DF817AB00A7637C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6CAA91DF817AB00A7637C /* libWeChatSDK.a */; };
+		04E6CAB31DF817AB00A7637C /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04E6CAAA1DF817AB00A7637C /* read_me.txt */; };
+		04E6CAB71DF8183E00A7637C /* DemoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6CAB51DF8183E00A7637C /* DemoMainViewController.m */; };
+		04E6CAB81DF8183E00A7637C /* DemoMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E6CAB61DF8183E00A7637C /* DemoMainViewController.xib */; };
 		04FA1A231CB4E7690076CF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA1A221CB4E7690076CF31 /* main.m */; };
 		04FA1A261CB4E7690076CF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA1A251CB4E7690076CF31 /* AppDelegate.m */; };
 		04FA1A291CB4E7690076CF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA1A281CB4E7690076CF31 /* ViewController.m */; };
 		04FA1A2C1CB4E7690076CF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA1A2A1CB4E7690076CF31 /* Main.storyboard */; };
 		04FA1A2E1CB4E7690076CF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA1A2D1CB4E7690076CF31 /* Assets.xcassets */; };
 		04FA1A311CB4E7690076CF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA1A2F1CB4E7690076CF31 /* LaunchScreen.storyboard */; };
-		04FA1A621CB4E8110076CF31 /* QRCodeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA1A601CB4E8110076CF31 /* QRCodeLoginViewController.m */; };
-		04FA1A631CB4E8110076CF31 /* QRCodeLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FA1A611CB4E8110076CF31 /* QRCodeLoginViewController.xib */; };
 		04FA1AE21CB4F4CD0076CF31 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA1AE11CB4F4CD0076CF31 /* libxml2.tbd */; };
-		04FA1AFB1CB4F8B60076CF31 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA1AF91CB4F8B60076CF31 /* MainViewController.m */; };
-		04FA1AFC1CB4F8B60076CF31 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FA1AFA1CB4F8B60076CF31 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,34 +44,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0466DED01CBB925000A4B12A /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
-		0466DED11CBB925000A4B12A /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
-		0466DED21CBB925000A4B12A /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
 		0466DED71CBB929200A4B12A /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
 		0466DED81CBB929200A4B12A /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
 		0466DED91CBB929200A4B12A /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		04B16BB91DF8144C00FC0918 /* libWeChatStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatStaticLib.a; path = "../../../Library/Developer/Xcode/DerivedData/WeChat-hctsexfxlwscwuezndxghygydrzt/Build/Products/Release-iphonesimulator/libWeChatStaticLib.a"; sourceTree = "<group>"; };
 		04D755C11DED292D002CFC82 /* libWeChatStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatStaticLib.a; path = "../../../../Library/Developer/Xcode/DerivedData/WeChat-hctsexfxlwscwuezndxghygydrzt/Build/Products/Release-iphonesimulator/libWeChatStaticLib.a"; sourceTree = "<group>"; };
-		04D755C31DED2D88002CFC82 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
-		04D755C41DED2D88002CFC82 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
-		04D755C51DED2D88002CFC82 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
-		04D755C91DED32F2002CFC82 /* AsyncWeChatSimulationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncWeChatSimulationService.h; sourceTree = "<group>"; };
-		04D755CA1DED32F2002CFC82 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
-		04D755CB1DED32F2002CFC82 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
-		04D755CC1DED32F2002CFC82 /* DataCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCacheHelper.h; sourceTree = "<group>"; };
-		04D755CD1DED32F2002CFC82 /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
-		04D755CE1DED32F2002CFC82 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
-		04D755CF1DED32F2002CFC82 /* HttpResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpResult.h; sourceTree = "<group>"; };
-		04D755D01DED32F2002CFC82 /* libWeChatStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatStaticLib.a; sourceTree = "<group>"; };
-		04D755D11DED32F2002CFC82 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
-		04D755D21DED32F2002CFC82 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		04D755D31DED32F2002CFC82 /* SimulationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationService.h; sourceTree = "<group>"; };
-		04D755D41DED32F2002CFC82 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
-		04D755D51DED32F2002CFC82 /* WeChatApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatApi.h; sourceTree = "<group>"; };
-		04D755D61DED32F2002CFC82 /* WeChatContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatContactModel.h; sourceTree = "<group>"; };
-		04D755D71DED32F2002CFC82 /* WeChatLibHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatLibHeader.h; sourceTree = "<group>"; };
-		04D755D81DED32F2002CFC82 /* WeChatMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatMemoryCache.h; sourceTree = "<group>"; };
-		04D755D91DED32F2002CFC82 /* WeChatMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatMessageModel.h; sourceTree = "<group>"; };
-		04D755DA1DED32F2002CFC82 /* WeChatSimulationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatSimulationService.h; sourceTree = "<group>"; };
+		04E6CA951DF817AB00A7637C /* AsyncWeChatSimulationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncWeChatSimulationService.h; sourceTree = "<group>"; };
+		04E6CA961DF817AB00A7637C /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		04E6CA971DF817AB00A7637C /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		04E6CA981DF817AB00A7637C /* DataCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCacheHelper.h; sourceTree = "<group>"; };
+		04E6CA991DF817AB00A7637C /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
+		04E6CA9A1DF817AB00A7637C /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		04E6CA9B1DF817AB00A7637C /* HttpResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpResult.h; sourceTree = "<group>"; };
+		04E6CA9C1DF817AB00A7637C /* libWeChatStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatStaticLib.a; sourceTree = "<group>"; };
+		04E6CA9D1DF817AB00A7637C /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		04E6CA9E1DF817AB00A7637C /* QRCodeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeLoginViewController.h; sourceTree = "<group>"; };
+		04E6CA9F1DF817AB00A7637C /* QRCodeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeLoginViewController.m; sourceTree = "<group>"; };
+		04E6CAA01DF817AB00A7637C /* QRCodeLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeLoginViewController.xib; sourceTree = "<group>"; };
+		04E6CAA11DF817AB00A7637C /* SimulationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationService.h; sourceTree = "<group>"; };
+		04E6CAA21DF817AB00A7637C /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		04E6CAA31DF817AB00A7637C /* WeChatApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatApi.h; sourceTree = "<group>"; };
+		04E6CAA41DF817AB00A7637C /* WeChatContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatContactModel.h; sourceTree = "<group>"; };
+		04E6CAA51DF817AB00A7637C /* WeChatLibHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatLibHeader.h; sourceTree = "<group>"; };
+		04E6CAA61DF817AB00A7637C /* WeChatMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatMemoryCache.h; sourceTree = "<group>"; };
+		04E6CAA71DF817AB00A7637C /* WeChatMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatMessageModel.h; sourceTree = "<group>"; };
+		04E6CAA91DF817AB00A7637C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		04E6CAAA1DF817AB00A7637C /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		04E6CAAB1DF817AB00A7637C /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		04E6CAAC1DF817AB00A7637C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		04E6CAAD1DF817AB00A7637C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		04E6CAAE1DF817AB00A7637C /* WeChatSimulationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatSimulationService.h; sourceTree = "<group>"; };
+		04E6CAB41DF8183E00A7637C /* DemoMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMainViewController.h; sourceTree = "<group>"; };
+		04E6CAB51DF8183E00A7637C /* DemoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMainViewController.m; sourceTree = "<group>"; };
+		04E6CAB61DF8183E00A7637C /* DemoMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoMainViewController.xib; sourceTree = "<group>"; };
 		04FA1A1E1CB4E7690076CF31 /* WeChatLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA1A221CB4E7690076CF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04FA1A241CB4E7690076CF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,13 +89,7 @@
 		04FA1A321CB4E7690076CF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FA1A371CB4E7690076CF31 /* WeChatLibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatLibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA1A421CB4E7690076CF31 /* WeChatLibDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatLibDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04FA1A5F1CB4E8110076CF31 /* QRCodeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeLoginViewController.h; sourceTree = "<group>"; };
-		04FA1A601CB4E8110076CF31 /* QRCodeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeLoginViewController.m; sourceTree = "<group>"; };
-		04FA1A611CB4E8110076CF31 /* QRCodeLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeLoginViewController.xib; sourceTree = "<group>"; };
 		04FA1AE11CB4F4CD0076CF31 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		04FA1AF81CB4F8B60076CF31 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		04FA1AF91CB4F8B60076CF31 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		04FA1AFA1CB4F8B60076CF31 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +97,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B16BBA1DF8144C00FC0918 /* libWeChatStaticLib.a in Frameworks */,
 				04FA1AE21CB4F4CD0076CF31 /* libxml2.tbd in Frameworks */,
-				04D755DB1DED32F2002CFC82 /* libWeChatStaticLib.a in Frameworks */,
+				04E6CAB21DF817AB00A7637C /* libWeChatSDK.a in Frameworks */,
+				04E6CAAF1DF817AB00A7637C /* libWeChatStaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,34 +142,50 @@
 		04D755C01DED292C002CFC82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04B16BB91DF8144C00FC0918 /* libWeChatStaticLib.a */,
 				04D755C11DED292D002CFC82 /* libWeChatStaticLib.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		04D755C81DED32F2002CFC82 /* WeChatStaticLib */ = {
+		04E6CA941DF817AB00A7637C /* WeChatStaticLib */ = {
 			isa = PBXGroup;
 			children = (
-				04D755C91DED32F2002CFC82 /* AsyncWeChatSimulationService.h */,
-				04D755CA1DED32F2002CFC82 /* CJSONDeserializer.h */,
-				04D755CB1DED32F2002CFC82 /* CJSONSerializer.h */,
-				04D755CC1DED32F2002CFC82 /* DataCacheHelper.h */,
-				04D755CD1DED32F2002CFC82 /* HttpHelper.h */,
-				04D755CE1DED32F2002CFC82 /* HttpRequest.h */,
-				04D755CF1DED32F2002CFC82 /* HttpResult.h */,
-				04D755D01DED32F2002CFC82 /* libWeChatStaticLib.a */,
-				04D755D11DED32F2002CFC82 /* NotificationManager.h */,
-				04D755D21DED32F2002CFC82 /* ReadMe.txt */,
-				04D755D31DED32F2002CFC82 /* SimulationService.h */,
-				04D755D41DED32F2002CFC82 /* Util.h */,
-				04D755D51DED32F2002CFC82 /* WeChatApi.h */,
-				04D755D61DED32F2002CFC82 /* WeChatContactModel.h */,
-				04D755D71DED32F2002CFC82 /* WeChatLibHeader.h */,
-				04D755D81DED32F2002CFC82 /* WeChatMemoryCache.h */,
-				04D755D91DED32F2002CFC82 /* WeChatMessageModel.h */,
-				04D755DA1DED32F2002CFC82 /* WeChatSimulationService.h */,
+				04E6CA951DF817AB00A7637C /* AsyncWeChatSimulationService.h */,
+				04E6CA961DF817AB00A7637C /* CJSONDeserializer.h */,
+				04E6CA971DF817AB00A7637C /* CJSONSerializer.h */,
+				04E6CA981DF817AB00A7637C /* DataCacheHelper.h */,
+				04E6CA991DF817AB00A7637C /* HttpHelper.h */,
+				04E6CA9A1DF817AB00A7637C /* HttpRequest.h */,
+				04E6CA9B1DF817AB00A7637C /* HttpResult.h */,
+				04E6CA9C1DF817AB00A7637C /* libWeChatStaticLib.a */,
+				04E6CA9D1DF817AB00A7637C /* NotificationManager.h */,
+				04E6CA9E1DF817AB00A7637C /* QRCodeLoginViewController.h */,
+				04E6CA9F1DF817AB00A7637C /* QRCodeLoginViewController.m */,
+				04E6CAA01DF817AB00A7637C /* QRCodeLoginViewController.xib */,
+				04E6CAA11DF817AB00A7637C /* SimulationService.h */,
+				04E6CAA21DF817AB00A7637C /* Util.h */,
+				04E6CAA31DF817AB00A7637C /* WeChatApi.h */,
+				04E6CAA41DF817AB00A7637C /* WeChatContactModel.h */,
+				04E6CAA51DF817AB00A7637C /* WeChatLibHeader.h */,
+				04E6CAA61DF817AB00A7637C /* WeChatMemoryCache.h */,
+				04E6CAA71DF817AB00A7637C /* WeChatMessageModel.h */,
+				04E6CAA81DF817AB00A7637C /* WeChatSDK */,
+				04E6CAAE1DF817AB00A7637C /* WeChatSimulationService.h */,
 			);
 			path = WeChatStaticLib;
+			sourceTree = "<group>";
+		};
+		04E6CAA81DF817AB00A7637C /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				04E6CAA91DF817AB00A7637C /* libWeChatSDK.a */,
+				04E6CAAA1DF817AB00A7637C /* read_me.txt */,
+				04E6CAAB1DF817AB00A7637C /* WechatAuthSDK.h */,
+				04E6CAAC1DF817AB00A7637C /* WXApi.h */,
+				04E6CAAD1DF817AB00A7637C /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
 			sourceTree = "<group>";
 		};
 		04FA1A151CB4E7690076CF31 = {
@@ -239,7 +254,7 @@
 		04FA1A571CB4E7AB0076CF31 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				04D755C81DED32F2002CFC82 /* WeChatStaticLib */,
+				04E6CA941DF817AB00A7637C /* WeChatStaticLib */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -247,36 +262,11 @@
 		04FA1A5C1CB4E7DC0076CF31 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				04FA1A5E1CB4E7EA0076CF31 /* main */,
-				04FA1A5D1CB4E7E50076CF31 /* login */,
+				04E6CAB41DF8183E00A7637C /* DemoMainViewController.h */,
+				04E6CAB51DF8183E00A7637C /* DemoMainViewController.m */,
+				04E6CAB61DF8183E00A7637C /* DemoMainViewController.xib */,
 			);
 			name = ViewController;
-			sourceTree = "<group>";
-		};
-		04FA1A5D1CB4E7E50076CF31 /* login */ = {
-			isa = PBXGroup;
-			children = (
-				04FA1A5F1CB4E8110076CF31 /* QRCodeLoginViewController.h */,
-				04FA1A601CB4E8110076CF31 /* QRCodeLoginViewController.m */,
-				04FA1A611CB4E8110076CF31 /* QRCodeLoginViewController.xib */,
-				04D755C31DED2D88002CFC82 /* SplashViewController.h */,
-				04D755C41DED2D88002CFC82 /* SplashViewController.m */,
-				04D755C51DED2D88002CFC82 /* SplashViewController.xib */,
-			);
-			name = login;
-			sourceTree = "<group>";
-		};
-		04FA1A5E1CB4E7EA0076CF31 /* main */ = {
-			isa = PBXGroup;
-			children = (
-				04FA1AF81CB4F8B60076CF31 /* MainViewController.h */,
-				04FA1AF91CB4F8B60076CF31 /* MainViewController.m */,
-				04FA1AFA1CB4F8B60076CF31 /* MainViewController.xib */,
-				0466DED01CBB925000A4B12A /* MainTableViewController.h */,
-				0466DED11CBB925000A4B12A /* MainTableViewController.m */,
-				0466DED21CBB925000A4B12A /* MainTableViewController.xib */,
-			);
-			name = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +336,12 @@
 				TargetAttributes = {
 					04FA1A1D1CB4E7690076CF31 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BXC3U9JLBF;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					04FA1A361CB4E7690076CF31 = {
 						CreatedOnToolsVersion = 7.3;
@@ -383,14 +379,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0466DEDB1CBB929200A4B12A /* ContactTableViewCell.xib in Resources */,
-				04D755C71DED2D88002CFC82 /* SplashViewController.xib in Resources */,
-				04FA1A631CB4E8110076CF31 /* QRCodeLoginViewController.xib in Resources */,
 				04FA1A311CB4E7690076CF31 /* LaunchScreen.storyboard in Resources */,
-				04FA1AFC1CB4F8B60076CF31 /* MainViewController.xib in Resources */,
+				04E6CAB11DF817AB00A7637C /* QRCodeLoginViewController.xib in Resources */,
 				04FA1A2E1CB4E7690076CF31 /* Assets.xcassets in Resources */,
-				0466DED41CBB925000A4B12A /* MainTableViewController.xib in Resources */,
-				04D755DC1DED32F2002CFC82 /* ReadMe.txt in Resources */,
+				04E6CAB31DF817AB00A7637C /* read_me.txt in Resources */,
 				04FA1A2C1CB4E7690076CF31 /* Main.storyboard in Resources */,
+				04E6CAB81DF8183E00A7637C /* DemoMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,13 +409,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA1A621CB4E8110076CF31 /* QRCodeLoginViewController.m in Sources */,
 				04FA1A291CB4E7690076CF31 /* ViewController.m in Sources */,
+				04E6CAB01DF817AB00A7637C /* QRCodeLoginViewController.m in Sources */,
+				04E6CAB71DF8183E00A7637C /* DemoMainViewController.m in Sources */,
 				0466DEDA1CBB929200A4B12A /* ContactTableViewCell.m in Sources */,
-				04D755C61DED2D88002CFC82 /* SplashViewController.m in Sources */,
-				0466DED31CBB925000A4B12A /* MainTableViewController.m in Sources */,
 				04FA1A261CB4E7690076CF31 /* AppDelegate.m in Sources */,
-				04FA1AFB1CB4F8B60076CF31 /* MainViewController.m in Sources */,
 				04FA1A231CB4E7690076CF31 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,11 +555,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BXC3U9JLBF;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WeChatLibDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WeChatLibDemo/WeChatStaticLib",
+					"$(PROJECT_DIR)/WeChatLibDemo/WeChatStaticLib/WeChatSDK",
+					"$(PROJECT_DIR)/WeChatStaticLib/WeChatStaticLib/UMAnalytics_Sdk_3.6.5",
 				);
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ng.WeChatLibDemo;
@@ -579,11 +576,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BXC3U9JLBF;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WeChatLibDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WeChatLibDemo/WeChatStaticLib",
+					"$(PROJECT_DIR)/WeChatLibDemo/WeChatStaticLib/WeChatSDK",
+					"$(PROJECT_DIR)/WeChatStaticLib/WeChatStaticLib/UMAnalytics_Sdk_3.6.5",
 				);
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ng.WeChatLibDemo;

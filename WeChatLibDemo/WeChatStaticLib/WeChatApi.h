@@ -19,6 +19,11 @@
 #import "HttpHelper.h"
 
 @interface WeChatApi : NSObject
-+ (void)init;
-+ (void)asyncGetAppInfo:(void(^)(HttpResult* httpResult))respBlock;
+@property BOOL m_shoudShowLogin;
+@property NSString * m_shareContent;
+
+- (id)init;
++ (void)initWeChatSdk;
++ (WeChatApi*)stander;
+- (void)asyncGetAppInfo:(void(^)(HttpResult* httpResult))respBlock;
 @end

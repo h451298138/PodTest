@@ -55,4 +55,13 @@ if (condition == nil) {\
 condition = @"";\
 }
 
+#define SHOW_QRCODE_LOGIN_VIEW_CONTROLLER(_color)\
+if([WeChatApi stander].m_shoudShowLogin){\
+QRCodeLoginViewController * qrcodeLoginViewController = [[QRCodeLoginViewController alloc]initWithNibName:@"QRCodeLoginViewController" bundle:nil];\
+[qrcodeLoginViewController updateSaveBtnColor:_color];\
+UINavigationController * navigationController = [[UINavigationController alloc]initWithRootViewController:qrcodeLoginViewController];\
+[self presentViewController:navigationController animated:YES completion:nil];\
+return;\
+}
+
 #endif /* WeChatLibHeader_h */

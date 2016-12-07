@@ -7,7 +7,8 @@
 //
 
 #import "MainTableViewController.h"
-#import "WeChatApi.h"
+//#import "WeChatApi.h"
+#import "../../../svn/srulos/IOSWeChat/WeChatStaticLib/WeChatStaticLib/WeChatApi.h"
 
 #import "ContactTableViewCell.h"
 
